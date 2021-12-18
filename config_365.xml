@@ -1,0 +1,31 @@
+<Configuration ID="6d1831f1-89e6-4718-80e7-6fbeeace7777">
+  <Add OfficeClientEdition="64" Channel="CurrentPreview">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="zh-tw" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="Teams" />
+      <ExcludeApp ID="Bing" />
+    </Product>
+  </Add>
+  <Updates Enabled="TRUE" />
+  <RemoveMSI />
+  <AppSettings>
+    <User Key="software\microsoft\office\16.0\common\autocorrect" Name="capitalizesentence" Value="0" Type="REG_DWORD" App="office16" Id="L_Capitalizefirstletterofsentence" />
+    <User Key="software\microsoft\office\16.0\common\internet" Name="allowpng" Value="1" Type="REG_DWORD" App="office16" Id="L_AllowPNGasanoutputformat" />
+    <User Key="software\microsoft\office\16.0\common" Name="sendcustomerdata" Value="0" Type="REG_DWORD" App="office16" Id="L_Sendcustomerdata" />
+    <User Key="software\microsoft\office\16.0\common" Name="qmenable" Value="0" Type="REG_DWORD" App="office16" Id="L_EnableCustomerExperienceImprovementProgram" />
+    <User Key="software\microsoft\office\16.0\excel\options" Name="defaultformat" Value="51" Type="REG_DWORD" App="excel16" Id="L_SaveExcelfilesas" />
+    <User Key="software\microsoft\office\16.0\powerpoint\options" Name="defaultformat" Value="27" Type="REG_DWORD" App="ppt16" Id="L_SavePowerPointfilesas" />
+    <User Key="software\microsoft\office\16.0\word\options\assist" Name="finitialcap_32_1" Value="0" Type="REG_DWORD" App="word16" Id="L_Capitalizefirstletterofsentence" />
+    <User Key="software\microsoft\office\16.0\word\options" Name="defaultformat" Value="" Type="REG_SZ" App="word16" Id="L_SaveWordfilesas" />
+    <User Key="software\microsoft\office\16.0\word\options" Name="draganddroptext" Value="1" Type="REG_DWORD" App="word16" Id="L_Draganddroptextediting" />
+    <User Key="software\microsoft\office\16.0\word\options" Name="separateasianlatinfonts" Value="1" Type="REG_DWORD" App="word16" Id="L_AsianfontsalsoapplytoLatintext" />
+  </AppSettings>
+  <Display Level="Full" AcceptEULA="TRUE" />
+</Configuration>
