@@ -1,0 +1,1 @@
+setup.exe /configure config_ltsc.xml
