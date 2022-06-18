@@ -2,21 +2,23 @@
 
 ![demo](/demo.png)
 
-## 說明
-非第三方工具修改，僅以官方提供的部署方式指定下載的組件，穩定性與原版無異。
+## About
+Modified by non-third-party tools, only download the specified components in the officially provided deployment method. The stability is no different from the original.
 
-## 內含組件
+非第三方工具修改，僅以官方提供的部署方式下載指定的組件，穩定性與原版無異。
+
+## Included components
 - Word
 - Excel
 - PowerPoint
 
-## 使用方式
-#### 下載
+## How to use？
+#### Download
 ```cmd
 setup.exe /download config_xxx.xml
 ```
 
-#### 安裝
+#### Install
 ```cmd
 setup.exe /configure config_xxx.xml
 ```
