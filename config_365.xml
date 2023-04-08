@@ -1,7 +1,7 @@
-<Configuration ID="6d1831f1-89e6-4718-80e7-6fbeeace7777">
+<Configuration ID="ce661e5a-b68f-426b-a871-e173db144e3a">
   <Add OfficeClientEdition="64" Channel="CurrentPreview">
     <Product ID="O365ProPlusRetail">
-      <Language ID="zh-tw" />
+      <Language ID="MatchOS" />
       <ExcludeApp ID="Access" />
       <ExcludeApp ID="Groove" />
       <ExcludeApp ID="Lync" />
@@ -10,22 +10,23 @@
       <ExcludeApp ID="Outlook" />
       <ExcludeApp ID="Publisher" />
       <ExcludeApp ID="Teams" />
-      <ExcludeApp ID="Bing" />
     </Product>
   </Add>
   <Updates Enabled="TRUE" />
   <RemoveMSI />
   <AppSettings>
+    <User Key="software\microsoft\office\16.0\common\sharepointintegration" Name="hidelearnmorelink" Value="1" Type="REG_DWORD" App="office16" Id="L_HideTheLearnMoreAboutSharePointHyperlink" />
+    <User Key="software\microsoft\office\16.0\common\toolbars" Name="animation" Value="4" Type="REG_DWORD" App="office16" Id="L_Menuanimations" />
     <User Key="software\microsoft\office\16.0\common\autocorrect" Name="capitalizesentence" Value="0" Type="REG_DWORD" App="office16" Id="L_Capitalizefirstletterofsentence" />
-    <User Key="software\microsoft\office\16.0\common\internet" Name="allowpng" Value="1" Type="REG_DWORD" App="office16" Id="L_AllowPNGasanoutputformat" />
     <User Key="software\microsoft\office\16.0\common" Name="sendcustomerdata" Value="0" Type="REG_DWORD" App="office16" Id="L_Sendcustomerdata" />
+    <User Key="software\microsoft\shared tools\proofing tools\1.0\office" Name="ignorewordswithnumbers" Value="1" Type="REG_DWORD" App="office16" Id="L_Ignorewordswithnumbers" />
+    <User Key="software\microsoft\shared tools\proofing tools\1.0\office" Name="ignoreinternetfileaddresses" Value="1" Type="REG_DWORD" App="office16" Id="L_IgnoreInternetandfileaddresses" />
     <User Key="software\microsoft\office\16.0\common" Name="qmenable" Value="0" Type="REG_DWORD" App="office16" Id="L_EnableCustomerExperienceImprovementProgram" />
-    <User Key="software\microsoft\office\16.0\excel\options" Name="defaultformat" Value="51" Type="REG_DWORD" App="excel16" Id="L_SaveExcelfilesas" />
-    <User Key="software\microsoft\office\16.0\powerpoint\options" Name="defaultformat" Value="27" Type="REG_DWORD" App="ppt16" Id="L_SavePowerPointfilesas" />
-    <User Key="software\microsoft\office\16.0\word\options\assist" Name="finitialcap_32_1" Value="0" Type="REG_DWORD" App="word16" Id="L_Capitalizefirstletterofsentence" />
-    <User Key="software\microsoft\office\16.0\word\options" Name="defaultformat" Value="" Type="REG_SZ" App="word16" Id="L_SaveWordfilesas" />
-    <User Key="software\microsoft\office\16.0\word\options" Name="draganddroptext" Value="1" Type="REG_DWORD" App="word16" Id="L_Draganddroptextediting" />
-    <User Key="software\microsoft\office\16.0\word\options" Name="separateasianlatinfonts" Value="1" Type="REG_DWORD" App="word16" Id="L_AsianfontsalsoapplytoLatintext" />
+    <User Key="software\microsoft\office\16.0\common" Name="updatereliabilitydata" Value="1" Type="REG_DWORD" App="office16" Id="L_UpdateReliabilityPolicy" />
+    <User Key="software\microsoft\office\16.0\common\signatures" Name="signaturehashalg" Value="sha256" Type="REG_SZ" App="office16" Id="L_SelectDigitalSignatureHashingAlgorithm" />
+    <User Key="software\microsoft\office\16.0\common\signatures" Name="timestamphashalg" Value="sha256" Type="REG_SZ" App="office16" Id="L_ConfigureTimeStampingHashingAlgorithm" />
+    <User Key="software\microsoft\office\16.0\common\signatures" Name="legacyhashalg" Value="sha1" Type="REG_SZ" App="office16" Id="L_SelectDigitalSignatureLegacyHashingAlgorithm" />
+    <User Key="software\microsoft\office\16.0\common\security\filevalidation" Name="disablereporting" Value="1" Type="REG_DWORD" App="office16" Id="L_TurnOffErrorReportingForFilesThatFailFileValidation" />
   </AppSettings>
   <Display Level="Full" AcceptEULA="TRUE" />
 </Configuration>
