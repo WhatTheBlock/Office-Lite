@@ -3,7 +3,7 @@
 ![demo](/demo.png)
 
 ## About
-Modified by non-third-party tools, only download the specified components in the officially provided deployment method. The stability is no different from the original.
+Only download the specified components in the officially provided deployment method. The stability is no different from the original.
 
 非第三方工具修改，僅以官方提供的部署方式下載指定的組件，穩定性與原版無異。
 
