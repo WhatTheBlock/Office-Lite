@@ -1,6 +1,6 @@
 # Office Lite
 
-![demo](/demo.png)
+![demo](/demo_2024.png)
 
 ## About
 Only download the specified components in the officially provided deployment method. The stability is no different from the original.
